@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-image: url('../imagens_pagina_principal/imagem_principal.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /*background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;*/
+   
+}
+
+
+
+.navegacao li{
+    color:#42EA31 ;
+    list-style-type: none;
+    font-family:'Hanalei Fill', cursive;
+    font-size: 40px;
+    padding: 25px;
+    text-align: center;
+
+    
+}
+
+.navegacao div{
+    
+    border-radius: 20px;
+    max-height: 90px;
+    max-width: 340px;
+    margin-bottom: 50px;
+    border: 5px solid #7030CA;
+    
+    
+    
+    
+}
+
+.navegacao div :hover{
+    background-color:#7030CA;
+    color: #42EA31;
+    border-radius: 20px;
+}
+
+
+ul{
+    margin-top: 80px;
+    margin-left: 65px;
+    margin-bottom: 100px;
+}
+
+
+.navegacao {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 70%;
+    bottom: 0;
+    z-index: -1;
+    opacity: 90%;
+    background-color: black;
+    
+  }
+
+  
+
+a{
+    text-decoration: none;
+    
+}
+
+h1{
+    color: white;
+    margin-left: 70px;
+    font-family:'Hanalei Fill', cursive ;
+    color: #42EA31;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+
+

@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-image: url('../imagems_planos_de_curso/pagina_de_planos_de_curso.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 999; /* Ajuste a ordem de empilhamento se necessário */
+  }
+
+.eleis {
+    list-style-type: none;
+    font-family: 'Hanalei Fill', cursive;
+    color: #42EA31;
+    font-size: 40px;
+    
+}
+
+.navegacao {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-left: 90px;
+    text-align: center;
+    width: 24%;
+}
+
+ .eleis {
+    height: 90px;
+    border: 5px solid #7030CA;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-top: 25px;
+    
+}
+
+.eleis:hover{
+    background-color:#7030CA ;
+    border: 5px solid black;
+
+}
+
+
+.primeira{
+    list-style-type: none;
+    color: #42EA31;
+    font-family:'Hanalei Fill', cursive ;
+    font-size: 32px;
+    border: 5px solid #7030CA;
+    width: 35%;
+    border-radius: 20px;
+    height:50px ;
+    text-align: center;
+
+}
+.segunda{
+    list-style-type: none;
+    color: #42EA31;
+    font-family:'Hanalei Fill', cursive ;
+    font-size: 32px;
+    border: 5px solid #7030CA;
+    margin-top: 30px;
+    width: 25%;
+    border-radius: 20px;
+    height: 50px;
+    padding-top: 0;
+    text-align: center;
+}
+
+
+
