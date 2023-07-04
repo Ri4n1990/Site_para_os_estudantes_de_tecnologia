@@ -119,3 +119,15 @@ header {
 a{
     text-decoration: none;
 }
+
+.segunda:hover{
+    color: #42EA31;
+    background-color: #7030CA;
+    border-color: #221D1D;
+}
+
+.primeira:hover{
+    color: #42EA31;
+    background-color: #7030CA;
+    border-color: #221D1D;
+}
