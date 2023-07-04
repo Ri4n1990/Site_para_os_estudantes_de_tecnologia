@@ -133,21 +133,12 @@ body{
     margin-top: 50px;
   }
   
-/* Estilo do cabeçalho */
-/*header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    z-index: 999; /* Ajuste a ordem de empilhamento se necessário */
-
-/*
+a{
+    text-decoration: none;
 }
-/*
 
+.eleis:hover{
+    background-color:#7030CA ;
+    border-color: #000000;
 
-*/
+}
