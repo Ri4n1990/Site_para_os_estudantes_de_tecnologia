@@ -34,7 +34,7 @@ header {
 }
 
  .eleis {
-    height: 90px;
+    height: 60px;
     border: 5px solid #7030CA;
     border-radius: 20px;
     margin-top: 50px;
@@ -51,29 +51,71 @@ header {
 
 .primeira{
     list-style-type: none;
-    color: #42EA31;
+    color: #AD00FF;
     font-family:'Hanalei Fill', cursive ;
     font-size: 32px;
     border: 5px solid #7030CA;
-    width: 35%;
+    width: 700px;
     border-radius: 20px;
-    height:50px ;
+    height:55px ;
     text-align: center;
+    margin-left: 115px;
+    background-color: #221D1D;
+    padding-top: 10px;
+
 
 }
 .segunda{
     list-style-type: none;
-    color: #42EA31;
+    color: #AD00FF;
     font-family:'Hanalei Fill', cursive ;
     font-size: 32px;
     border: 5px solid #7030CA;
-    margin-top: 30px;
-    width: 25%;
+    margin-top: 40px;
+    width: 500px;
     border-radius: 20px;
-    height: 50px;
-    padding-top: 0;
+    height: 55px;
     text-align: center;
+    margin-left: 200px;
+    background-color: #221D1D;
+    padding-top: 10px;    
+    
+}
+
+
+.diciplinas{
+    height: 50%;
+    float: left;
+    margin-top: 50px;
+    width: 700px;
+
+    
+
 }
 
 
 
+.diciplinas2{
+    float: right;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    
+    
+}
+
+  
+
+
+.titulo{
+    list-style-type: none;
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: white;
+    margin-left: 350px;
+}
+
+a{
+    text-decoration: none;
+}
