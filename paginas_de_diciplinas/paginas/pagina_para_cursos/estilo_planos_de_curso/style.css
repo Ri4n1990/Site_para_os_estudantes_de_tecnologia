@@ -2,8 +2,9 @@ body {
     margin: 0;
     background-image: url('../imagems_planos_de_curso/pagina_de_planos_de_curso.png');
     background-repeat: no-repeat;
-    overflow: hidden;
+    background-attachment: fixed;
 }
+
 
 header {
     position: fixed;
@@ -28,7 +29,7 @@ header {
 .navegacao {
     display: inline-block;
     padding: 10px 15px;
-    margin-left: 90px;
+    margin-left: 5%;
     text-align: center;
     width: 24%;
 }
@@ -55,7 +56,7 @@ header {
     font-family:'Hanalei Fill', cursive ;
     font-size: 32px;
     border: 5px solid #7030CA;
-    width: 700px;
+    width: 100%;
     border-radius: 20px;
     height:55px ;
     text-align: center;
@@ -72,7 +73,7 @@ header {
     font-size: 32px;
     border: 5px solid #7030CA;
     margin-top: 40px;
-    width: 500px;
+    width: 70%;
     border-radius: 20px;
     height: 55px;
     text-align: center;
@@ -86,20 +87,21 @@ header {
 .diciplinas{
     height: 50%;
     float: left;
-    margin-top: 50px;
-    width: 700px;
-
-    
+    margin-top: 2%;
+    width: 33%;
+    align-items: flex-start;
 
 }
 
 
 
 .diciplinas2{
+    height: 50%;
     float: right;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 50px;
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 50%;
+    align-items: flex-start;
     
     
 }
@@ -130,4 +132,58 @@ a{
     color: #42EA31;
     background-color: #7030CA;
     border-color: #221D1D;
+}
+
+.terceira{
+    list-style-type: none;
+    color: #AD00FF;
+    font-family:'Hanalei Fill', cursive ;
+    font-size: 32px;
+    border: 5px solid #7030CA;
+    width: 70%;
+    border-radius: 20px;
+    height:55px ;
+    text-align: center;
+    margin-left: 115px;
+    background-color: #221D1D;
+    padding-top: 10px;
+}
+
+.quarta{
+
+    list-style-type: none;
+    color: #AD00FF;
+    font-family:'Hanalei Fill', cursive ;
+    font-size: 200%;
+    border: 5px solid #7030CA;
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 20px;
+    height: 55px;
+    text-align: center;
+    margin-left: 200px;
+    background-color: #221D1D;
+    padding-top: 10px; 
+
+}
+
+.terceira:hover{
+    color: #42EA31;
+    background-color: #7030CA;
+    border-color: #221D1D;
+
+}
+
+
+.quarta:hover{
+    color: #42EA31;
+    background-color: #7030CA;
+    border-color: #221D1D;
+
+}
+
+@media (max-width: 600px) {
+    .diciplinas2{
+        float: right;
+    }
 }
