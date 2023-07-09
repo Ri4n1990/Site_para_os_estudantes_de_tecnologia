@@ -18,13 +18,7 @@ header {
     z-index: 999; /* Ajuste a ordem de empilhamento se necessário */
   }
 
-.eleis {
-    list-style-type: none;
-    font-family: 'Hanalei Fill', cursive;
-    color: #42EA31;
-    font-size: 40px;
-    
-}
+
 
 .navegacao {
     display: inline-block;
@@ -40,6 +34,10 @@ header {
     border-radius: 20px;
     margin-top: 50px;
     padding-top: 25px;
+    list-style-type: none;
+    font-family: 'Hanalei Fill', cursive;
+    color: #42EA31;
+    font-size: 40px;
     
 }
 
@@ -56,11 +54,11 @@ header {
     font-family:'Hanalei Fill', cursive ;
     font-size: 32px;
     border: 5px solid #7030CA;
-    width: 100%;
+    width: 650px;
     border-radius: 20px;
     height:55px ;
     text-align: center;
-    margin-left: 115px;
+    margin-left: 90px;
     background-color: #221D1D;
     padding-top: 10px;
 
@@ -73,11 +71,11 @@ header {
     font-size: 32px;
     border: 5px solid #7030CA;
     margin-top: 40px;
-    width: 70%;
+    width: 80%;
     border-radius: 20px;
     height: 55px;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 160px;
     background-color: #221D1D;
     padding-top: 10px;    
     
@@ -87,9 +85,10 @@ header {
 .diciplinas{
     height: 50%;
     float: left;
-    margin-top: 2%;
-    width: 33%;
+    margin-top: 1%;
+    width: 30%;
     align-items: flex-start;
+    margin-left: 50px;
 
 }
 
@@ -99,7 +98,7 @@ header {
     height: 50%;
     float: right;
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: 1%;
     width: 50%;
     align-items: flex-start;
     
@@ -110,6 +109,14 @@ header {
 
 
 .titulo{
+    list-style-type: none;
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: white;
+    margin-left: 300px;
+}
+.titulo2{
     list-style-type: none;
     font-family: 'Hanalei Fill', cursive;
     font-size: 48px;
@@ -157,11 +164,11 @@ a{
     font-size: 200%;
     border: 5px solid #7030CA;
     margin-top: 40px;
-    width: 50%;
+    width: 450px;
     border-radius: 20px;
     height: 55px;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 220px;
     background-color: #221D1D;
     padding-top: 10px; 
 
@@ -182,8 +189,206 @@ a{
 
 }
 
-@media (max-width: 600px) {
-    .diciplinas2{
-        float: right;
+
+
+@media screen and (max-width: 1900px) {
+
+
+    .diciplinas{
+        margin-left: 50px;
     }
+    .titulo{
+        width: 500px;
+    }
+    
+}
+
+@media screen and (max-width: 1700px) {
+
+    .segunda{
+        width: 450px;
+    }
+
+    .diciplinas{
+        margin-left: 0px;
+    }
+
+    .terceira{
+        margin-left: 190px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+
+
+
+
+    .eleis {
+        height: 60px;
+        border: 5px solid #7030CA;
+        border-radius: 20px;
+        margin-top: 0px;
+        padding-top: 25px;
+        list-style-type: none;
+        font-family: 'Hanalei Fill', cursive;
+        color: #42EA31;
+        font-size: 30px;
+
+        
+    }
+
+
+    .navegacao {
+        display: inline-block;
+        margin-left: 4%;
+        text-align: center;
+        width: 24%;
+    }
+
+    .titulo{
+        list-style-type: none;
+        font-family: 'Hanalei Fill', cursive;
+        font-size: 40px;
+        margin-bottom: 50px;
+        color: white;
+        margin-left: 90px;
+        width: 250px;
+    }
+
+    .primeira{
+        list-style-type: none;
+        color: #AD00FF;
+        font-family:'Hanalei Fill', cursive ;
+        font-size: 28px;
+        border: 5px solid #7030CA;
+        width: 370px;
+        border-radius: 20px;
+        height:80px ;
+        text-align: center;
+        margin-left: 0px;
+        background-color: #221D1D;
+        padding-top: 10px;
+        margin-top: 0px;
+    
+    
+    }
+
+    .segunda{
+        list-style-type: none;
+        color: #AD00FF;
+        font-family:'Hanalei Fill', cursive ;
+        font-size: 28px;
+        border: 5px solid #7030CA;
+        width: 360px;
+        border-radius: 20px;
+        height: 55px;
+        text-align: center;
+        margin-left: 0px;
+        background-color: #221D1D;
+        padding-top: 10px;    
+        
+    }
+    .diciplinas2{
+        height: 50%;
+        float: right;
+        margin-right: 170px;
+        margin-top: 1%;
+        width: 330px;
+        align-items: flex-start;
+        
+        
+    }
+
+    .titulo2{
+        width: 270px;
+        list-style-type: none;
+        font-family: 'Hanalei Fill', cursive;
+        font-size: 40px;
+        margin-bottom: 50px;
+        color: white;
+        margin-left: 170px;
+        
+    }
+
+
+    .terceira{
+        list-style-type: none;
+        color: #AD00FF;
+        font-family:'Hanalei Fill', cursive ;
+        font-size: 32px;
+        border: 5px solid #7030CA;
+        width: 400px;
+        border-radius: 20px;
+        height:80px ;
+        text-align: center;
+        margin-left: 60px;
+        background-color: #221D1D;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+    
+    .quarta{
+
+        list-style-type: none;
+        color: #AD00FF;
+        font-family:'Hanalei Fill', cursive ;
+        font-size: 32px;
+        border: 5px solid #7030CA;
+        width: 400px;
+        border-radius: 20px;
+        height: 55px;
+        text-align: center;
+        margin-left: 60px;
+        background-color: #221D1D;
+        padding-top: 10px; 
+    
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .diciplinas2{
+        width: 0%;
+        margin-right: 450px;
+    }
+
+    .terceira{
+        margin-left: 0px;
+    }
+
+    .quarta{
+        margin-left: 0px;
+    }
+
+
+
+}
+@media screen and (max-width: 800px) {
+
+
+    .navegacao{
+        display: block;
+        width: 50%;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .diciplinas2{
+        margin-left: 0px;
+        
+    }
+
+    .titulo2{
+        margin-left: 100px;
+    }
+
+    
 }

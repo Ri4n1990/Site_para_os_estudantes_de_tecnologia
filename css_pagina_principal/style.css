@@ -1,17 +1,12 @@
 body{
-    margin: 0;
     background-image: url('../imagens_pagina_principal/imagem_principal.png');
     background-repeat: no-repeat;
-    overflow: hidden;
-    /*background-position: top center;
-    background-size: cover;
-    background-attachment: fixed;*/
    
 }
 
 
 
-.navegacao li{
+li{
     color:#42EA31 ;
     list-style-type: none;
     font-family:'Hanalei Fill', cursive;
@@ -33,6 +28,7 @@ body{
     
     
     
+    
 }
 
 .navegacao div :hover{
@@ -43,9 +39,9 @@ body{
 
 
 ul{
-    margin-top: 80px;
+    margin-top: 0%;
     margin-left: 65px;
-    margin-bottom: 100px;
+    margin-bottom: 20%;
 }
 
 
@@ -59,6 +55,7 @@ ul{
     z-index: -1;
     opacity: 90%;
     background-color: black;
+    
     
   }
 
@@ -75,8 +72,105 @@ h1{
     font-family:'Hanalei Fill', cursive ;
     color: #42EA31;
     font-size: 50px;
-    margin-top: 100px;
+    margin-top: 20%;
 }
 
 
 
+
+@media screen and (max-width: 1600px)  {
+
+    body{
+        margin: 0;
+        background-image: url('../imagens_pagina_principal/imagem_principal.png');
+        background-size: auto;
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+    }
+
+    h1{
+        margin-left: 60px;
+        font-family:'Hanalei Fill', cursive ;
+        font-size: 40px;
+        margin-top: 100px;
+        color: #42EA31;
+        width: 500px;
+    }
+    
+    .navegacao {
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 55%;
+        bottom: 0;
+        z-index: -1;
+        opacity: 90%;
+        background-color: black;
+        
+      }
+
+      li{
+        color:#42EA31 ;
+        list-style-type: none;
+        font-family:'Hanalei Fill', cursive;
+        font-size: 40px;
+        padding: 0;
+        text-align: center;
+    
+        
+    }
+}
+    
+    @media screen and (max-width: 1800px)  {
+        h1{
+            font-size: 40px;
+            margin-left: 100px;
+        }
+
+
+
+    }
+    
+
+
+    @media screen and (max-width: 1000px)  {
+
+        .navegacao {
+    
+            top: 0;
+            left: 0;
+            right: 5%;
+            bottom: 0;
+            z-index: -1;
+            opacity: 90%;
+            background-color: black;
+            
+          }
+
+    }
+
+    
+
+@media screen and (max-height: 800px)  {
+
+    li{
+        font-size: 40px;
+    }
+    
+    h1{
+        margin-top: 10%;
+    }
+    
+}
+
+
+@media screen and (max-height: 600px)  {
+
+    li{
+        padding: 0px;
+    }
+
+
+}
