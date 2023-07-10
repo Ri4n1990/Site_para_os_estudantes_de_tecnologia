@@ -1,5 +1,5 @@
 body{
-    background-image: url('../imagens_pagina_principal/macs.png');
+    background-image: url('../imagens_pagina_principal/imagem_principal.png');
     background-repeat: no-repeat;
    
 }
@@ -76,6 +76,25 @@ h1{
 }
 
 
+@media screen and (max-width: 2090)  {
+
+    body{
+        background-image: url('/imagens_pagina_principal/macs.png');
+    }
+
+}
+
+
+@media screen and (max-width: 1800px)  {
+    h1{
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+
+
+}
+
 
 
 @media screen and (max-width: 1600px)  {
@@ -122,17 +141,7 @@ h1{
     }
 }
     
-    @media screen and (max-width: 1800px)  {
-        h1{
-            font-size: 40px;
-            margin-left: 100px;
-        }
-
-
-
-    }
-    
-
+   
 
     @media screen and (max-width: 1000px)  {
 
